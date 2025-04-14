@@ -24,7 +24,7 @@
     padding-left: 2rem; /* Add indentation for lists */
     }
     
-    a {
+   a {
     text-decoration: none;
     margin: 0; /* Links usually don’t need margins */
     }
@@ -37,7 +37,7 @@
     body {
     font-family: 'Font';
     font-style: bold;
-    background-image: url(./Content/Images/background.jpg);
+    background-image: url(./Content/Images/background.png);
     background-position: top;
     color: rgba(0, 0, 0, 0.1);
     /*background-position: center;-->*/
@@ -56,7 +56,7 @@
     
     
     .black-box {
-        background-color: rgba(0, 0, 0, 0.63);
+        background-color: rgba(0, 0, 0, 0.333);
         top: 20px;
         left: 20px; 
         bottom: 0px;
@@ -79,27 +79,35 @@
     }
     
     .socionics-life-info a {
-        color: rgb(240, 220, 85);
+        color: rgb(240, 85, 183);
         font-size: 42px;
     }
     
     .socionics-life-info a:hover {
-        color: rgb(240, 220, 85);
+        color: rgb(240, 85, 183);
         font-size: 42px;
     }
     
     .forum-button:hover {
-        color: rgb(208, 68, 68);
+        color: rgb(196, 46, 176);
     }
     
     
     .info-button:hover {
-        color: rgb(208, 68, 68);
+        color: rgb(196, 46, 176);
     }
     
     .forum-description {
         color: white;
         font-style: italic;
+        
+    }
+    
+    .subpage-header {
+        color: white;
+        font-style: bold;
+        text-align: center;
+        font-size: 29px;
     }
     
     
@@ -146,7 +154,7 @@
     }
     
     .navbar a:hover {
-        color: rgb(208, 68, 68);
+        color: rgb(240, 85, 183);
     }
     
     .forum-description {
