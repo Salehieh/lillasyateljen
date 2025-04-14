@@ -29,7 +29,11 @@
     margin: 0; /* Links usually don’t need margins */
     }
     
-    
+    .news {
+        width: 80%;
+        margin: 40px auto 0 auto; /* top 40px, horizontal auto for centering */
+        text-align: justify;
+    }
     
     
     
@@ -203,7 +207,6 @@
     
     .news {
         font-size: 15px;
-        margin: 0px 50% 0px 3%;
         color: white;
         z-index: 3;
         position: relative;
